@@ -4,5 +4,5 @@ def profile(name,lastname,age):
 name=input()
 lastname=input()
 age=int(input())
-pro=name,lastname,age 
+pro=profile(name,lastname,age) 
 print(pro)
